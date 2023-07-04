@@ -1,0 +1,44 @@
+.about {
+    margin-top: 214px;
+}
+.about .about-content {
+    display: flex;
+}
+.about .about-content .aboutContent-info {
+    padding: 113px 32px 0 94px;
+}
+.about .about-content:last-child .aboutContent-info {
+    padding: 113px 123px 0 0;
+}
+.about .aboutContent-info h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 46px;
+}
+.about .aboutContent-info p {   
+    font-size: 17px;
+}
+.about-btn {
+    width: 260px;
+    height: 68px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #6E9C9F;
+    margin: 130px auto;
+}
+.about-btn:hover {
+    background: #509498;
+    color: #fff;
+}

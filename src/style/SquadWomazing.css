@@ -1,0 +1,82 @@
+.squad-womazing {
+    width: 100%;
+    padding: 130px 0;
+}
+.squad-womazing .squad-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.squad-womazing .squad-content {
+    margin-top: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carousel {
+    width: 729px;
+    height: 488px;
+    position: relative;
+}
+.carousel .carousel-indicators {
+    position: absolute;
+    bottom: 62px;
+    column-gap: 12px;
+}
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+    position: absolute;    
+}
+.carousel .carousel-control-prev {
+    left: -33px;
+}
+.carousel .carousel-control-next {
+    right: -33px;
+}
+.carousel .carousel-control-next:hover {
+    color: red;
+}
+.squad-womazing .squad-info h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.squad-womazing .squad-info p {
+    margin: 28px 0;
+    width: 255px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.squad-womazing .squad-info a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #6E9C9F;
+    position: relative;
+}
+.squad-womazing .squad-info a::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    left: 0;
+    bottom: -5px;
+    background: #CEDEDF;
+    transition: all 0.5s ease;
+}
+.squad-womazing .squad-info a:hover:before {
+    width: 178px;
+    transition: all 0.5s ease;
+}

@@ -1,0 +1,54 @@
+@import url("../font/Raleway/stylesheet");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+    transition: all 0.5s ease;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.navigation li a.active {
+    color: #6E9C9F;
+}
+.container {
+    width: calc(100% - 490px);
+    margin: 0 auto;
+}
+.shop-title {
+    padding-top: 269px;
+}
+.shop-title h1 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.shop-title .karta {
+    margin-top: 26px;
+    display: flex;
+    align-items: center;
+    column-gap: 13px;
+}
+.karta a {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+.karta a:last-child {
+    color: #919191;
+}
+.karta .tere {
+    width: 16px;
+    height: 2px;
+    background: #000;
+}

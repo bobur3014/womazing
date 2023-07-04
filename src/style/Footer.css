@@ -1,0 +1,72 @@
+.footer {
+    width: 100%;
+    padding: 104px 0;
+    background: #F1EADC;
+}
+.footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer .content-one .logo-info {
+    margin-top: 73px;
+}
+.footer .logo-info h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 6px;
+}
+.footer .content-twoo .navigation {
+    align-items: flex-start;
+}
+.footer .content-twoo .list {
+    margin-top: 39px;
+    padding-left: 0rem;
+}
+.footer .list li a {
+    position: relative;
+}
+.footer .list li a::before {
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 1px;
+    left: 0;
+    bottom: -5px;
+    background: #CEDEDF;
+    transition: all 0.5s ease;
+}
+.footer .list li a:hover {
+    color: #6E9C9F;
+}
+.footer .list li a:hover::before {
+    width: 100%;
+}
+.footer .list li {
+    margin-bottom: 10px;
+}
+.footer .footer-content .content-three {
+    text-align: end;
+}
+.footer .content-three a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    display: block;
+    margin-bottom: 9px;
+}
+.footer .content-three .links {
+    display: flex;
+    justify-content: end;
+    column-gap: 12px;
+    margin: 31px 0;
+}
+.footer .links img {
+    cursor: pointer;
+}

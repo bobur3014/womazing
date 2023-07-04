@@ -1,0 +1,88 @@
+.new-collection {
+    padding-top: 130px;
+    width: 100%;
+}
+.new-collection .newCollection-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.new-collection .collections {
+    margin-top: 92px;
+    display: flex;
+    column-gap: 30px;
+    text-align: center;
+}
+.collection p {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.collection span {
+    margin-top: 7px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #998E78;
+}
+.collection .coll-img {
+    width: 350px;
+    height: 478px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+}
+.collection .coll-img a {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 350px;
+    height: 478px;
+    background: rgba(110, 156, 159, 0.77);
+    z-index: 2;
+    transition: all 0.5s ease;
+}
+.coll-img a img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 31px;
+    height: 22px;
+}
+.coll-img:hover a {
+    top: 0;
+    transition: all 0.5s ease;
+}
+.collection img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.collection-btn {
+    display: block;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 138.9%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #6E9C9F;
+    width: 243px;
+    padding: 22px 50px;
+    border: 1px solid #6E9C9F;
+    margin: 65px auto;
+}
+.collection-btn:hover {
+    color: #fff;
+    background: #6E9C9F;
+}

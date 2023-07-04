@@ -1,0 +1,107 @@
+.first-screen {
+    display: flex;
+    height: 826px;
+}
+.first-screen .left {
+    width: calc(100% - 705px);
+    height: 100%;
+    padding-left: 245px;
+}
+.first-screen .left .left-title {
+    margin-top: 265px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.first-screen .left .left-subtitle {
+    margin-right: 345px;
+    margin-top: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    text-align: right;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.first-slider {
+    position: relative;
+}
+.first-slider .carousel-control-prev,
+.first-slider .carousel-control-next {
+    display: none;
+}
+.first-slider .carousel-indicators {
+    top: 730px;
+}
+.first-slider .carousel-indicators [data-bs-target] {
+    width: 30px;
+    height: 3px;
+    cursor: pointer;
+    background-color: #D1D1D1;
+}
+.first-slider .carousel-indicators .active {
+    background-color: #000;
+}
+
+.first-screen .left .left-buttons {
+    margin-top: 82px;
+    margin-left: 75px;
+    display: flex;
+    align-items: center;
+}
+.first-screen .left-buttons .button-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 67px;
+    height: 67px;
+    background: rgba(110, 156, 159, 0.1);
+}
+.first-screen .left-buttons .button-shop {
+    width: 243px;
+    height: 68px;
+    background: #6E9C9F;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 68px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.first-screen .button-shop:hover {
+    background: #509498;
+}
+.first-screen .right {
+    width: 705px;
+    height: 100%;
+    background: #F1EADC;
+}
+.first-screen .right .right-img {
+    margin-top: 120px;
+    margin-left: 50px;
+    margin-bottom: 54px;
+    width: 434px;
+    height: 652px;
+    background: url("../img/first-screen(1).png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.first-screen .right-img::after {
+    position: absolute;
+    content: url("../img/first-screen\(2\).png");
+    left: 318px;
+    top: 115px;
+}
+.first-screen .right-img::before {
+    position: absolute;
+    content: url("../img/first-screen\(3\).png");
+    left: -130px;
+    bottom: -54px;
+}
